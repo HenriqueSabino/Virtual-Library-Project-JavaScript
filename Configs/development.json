@@ -1,0 +1,17 @@
+{
+  "database": {
+    "user": "dev_user",
+    "password": "dev_password",
+    "server": "localhost",
+    "database": "VirtualLibraryDev",
+    "options": {
+      "encrypt": true,
+      "enableArithAbort": true
+    }
+  },
+  "auth": {
+    "secretKey": "development_secret_key",
+    "expiresIn": "1h"
+  },
+  "loanDuration": "14"
+}

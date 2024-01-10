@@ -1,0 +1,27 @@
+{
+  "database": {
+    "user": "prod_user",
+    "password": "prod_password",
+    "server": "prod_db_server",
+    "database": "VirtualLibrary"
+  },
+  "api": {
+    "port": 80,
+    "cors": {
+      "enabled": true,
+      "options": {
+        "origin": "*",
+        "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+        "preflightContinue": false,
+        "optionsSuccessStatus": 204
+      }
+    }
+  },
+  "security": {
+    "tokenSecret": "prod_secret_key"
+  },
+  "session": {
+    "cookieKey": "prod_cookie_secret"
+  },
+  "loanDuration": 14
+}

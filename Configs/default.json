@@ -1,0 +1,16 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 1433,
+    "user": "",
+    "password": "",
+    "databaseName": "VirtualLibraryDB"
+  },
+  "server": {
+    "port": 3000
+  },
+  "auth": {
+    "secret": "your-secret-key"
+  },
+  "loanDuration": 14
+}

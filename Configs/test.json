@@ -1,0 +1,13 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 1433,
+    "user": "test_user",
+    "password": "test_password",
+    "databaseName": "virtual_library_test"
+  },
+  "server": {
+    "port": 5001
+  },
+  "bookLoanDuration": 14
+}
